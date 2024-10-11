@@ -1,12 +1,16 @@
 {
   "color": {
-    "black": {
-      "$type": "color",
-      "$value": "#000"
-    },
     "white": {
       "$type": "color",
       "$value": "#fff"
+    },
+    "secondary900": {
+      "$type": "color",
+      "$value": "#5A287D"
+    },
+    "primary200": {
+      "$type": "color",
+      "$value": "#F8D2ED"
     },
     "primary900": {
       "$type": "color",
@@ -16,11 +20,21 @@
       "forest": {
         "$type": "color",
         "$value": "#11776D"
+      },
+      "cerise": {
+        "$type": "color",
+        "$value": "#BB1B74"
       }
     },
-    "secondary900": {
-      "$type": "color",
-      "$value": "#5A287D"
+    "mono": {
+      "black": {
+        "$type": "color",
+        "$value": "#2B2B2B"
+      },
+      "greyDark": {
+        "$type": "color",
+        "$value": "#6A7786"
+      }
     }
   },
   "border-radius": {
