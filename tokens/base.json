@@ -34,6 +34,10 @@
       "greyDark": {
         "$type": "color",
         "$value": "#6A7786"
+      },
+      "greyLight": {
+        "$type": "color",
+        "$value": "#E7ECF1"
       }
     }
   },
@@ -42,5 +46,31 @@
       "$type": "borderRadius",
       "$value": "30"
     }
+  },
+  "museo-sans": {
+    "$type": "fontFamilies",
+    "$value": "Museo Sans"
+  },
+  "museo-sans-rounded": {
+    "$type": "fontFamilies",
+    "$value": "Museo Sans Rounded"
+  },
+  "button": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{museo-sans}",
+      "fontWeight": "{bold}",
+      "fontSize": "14",
+      "lineHeight": "20",
+      "letterSpacing": "0.2",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "none",
+      "textCase": "initial"
+    }
+  },
+  "bold": {
+    "$type": "fontWeights",
+    "$value": "700"
   }
 }
