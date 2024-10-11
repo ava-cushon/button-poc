@@ -1,12 +1,16 @@
 {
   "color": {
-    "black": {
-      "$type": "color",
-      "$value": "#000"
-    },
     "white": {
       "$type": "color",
       "$value": "#fff"
+    },
+    "secondary900": {
+      "$type": "color",
+      "$value": "#5A287D"
+    },
+    "primary200": {
+      "$type": "color",
+      "$value": "#F8D2ED"
     },
     "primary900": {
       "$type": "color",
@@ -16,11 +20,25 @@
       "forest": {
         "$type": "color",
         "$value": "#11776D"
+      },
+      "cerise": {
+        "$type": "color",
+        "$value": "#BB1B74"
       }
     },
-    "secondary900": {
-      "$type": "color",
-      "$value": "#5A287D"
+    "mono": {
+      "black": {
+        "$type": "color",
+        "$value": "#2B2B2B"
+      },
+      "greyDark": {
+        "$type": "color",
+        "$value": "#6A7786"
+      },
+      "greyLight": {
+        "$type": "color",
+        "$value": "#E7ECF1"
+      }
     }
   },
   "border-radius": {
@@ -28,5 +46,31 @@
       "$type": "borderRadius",
       "$value": "30"
     }
+  },
+  "museo-sans": {
+    "$type": "fontFamilies",
+    "$value": "Museo Sans"
+  },
+  "museo-sans-rounded": {
+    "$type": "fontFamilies",
+    "$value": "Museo Sans Rounded"
+  },
+  "button": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{museo-sans}",
+      "fontWeight": "{bold}",
+      "fontSize": "14",
+      "lineHeight": "20",
+      "letterSpacing": "0.2",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "none",
+      "textCase": "initial"
+    }
+  },
+  "bold": {
+    "$type": "fontWeights",
+    "$value": "700"
   }
 }
