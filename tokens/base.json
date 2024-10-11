@@ -17,6 +17,10 @@
         "$type": "color",
         "$value": "#11776D"
       }
+    },
+    "secondary900": {
+      "$type": "color",
+      "$value": "#5A287D"
     }
   },
   "border-radius": {
